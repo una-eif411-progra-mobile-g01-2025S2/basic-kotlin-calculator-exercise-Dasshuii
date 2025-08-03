@@ -4,7 +4,7 @@ class Calculator {
     }
 
     fun subtract(a: Double, b: Double): Double {
-        // TODO: Implement subtraction
+        return a - b;
     }
 
     fun multiply(a: Double, b: Double): Double {
