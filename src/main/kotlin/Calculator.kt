@@ -12,6 +12,7 @@ class Calculator {
     }
 
     fun divide(a: Double, b: Double): Double {
-        // TODO: Implement division
+        require(b > 0) { "Divider must be greater than 0." }
+        return a / b
     }
 }
