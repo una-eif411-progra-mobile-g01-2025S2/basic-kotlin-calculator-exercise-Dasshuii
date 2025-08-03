@@ -1,6 +1,6 @@
 class Calculator {
     fun add(a: Double, b: Double): Double {
-        // TODO: Implement addition
+        return a + b;
     }
 
     fun subtract(a: Double, b: Double): Double {
